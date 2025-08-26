@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  border: red solid;
+  font-family: Arial, sans-serif;
+  background: #e89898;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+  grid-template-rows: repeat(2, 200px);
+  gap: 20px;
+}
+
+.grid-box {
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+
+.grid-box:hover {
+  background-color: #45a049;
+}

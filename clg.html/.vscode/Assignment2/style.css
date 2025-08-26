@@ -1,0 +1,119 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f7fa;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #2c3e50;
+}
+
+section {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.2s;
+}
+section:hover {
+  transform: translateY(-2px);
+}
+
+h2 {
+  margin-top: 0;
+  color: #34495e;
+}
+
+/* Buttons */
+button {
+  background: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.2s;
+}
+button:hover {
+  background: #2980b9;
+}
+
+/* Hover Box */
+#hoverBox {
+  width: 120px;
+  height: 120px;
+  background-color: #a3d5f7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  font-weight: bold;
+  user-select: none;
+  padding: 20px;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+/* Form */
+form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+form input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccd1d9;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+form button {
+  padding: 9px 16px;
+}
+
+/* Task List */
+#taskList {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+#taskList li {
+  background: #ecf0f1;
+  margin-bottom: 8px;
+  padding: 10px 14px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  transition: background 0.2s;
+}
+#taskList li:hover {
+  background: #d0d7de;
+}
+#taskList li.done {
+  text-decoration: line-through;
+  color: #7f8c8d;
+}
+
+/* Keyboard Log */
+#keyInput {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccd1d9;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+#keyLog {
+  margin-top: 10px;
+  font-style: italic;
+  color: #555;
+}

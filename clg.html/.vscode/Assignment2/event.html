@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Events </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>DOM Events & Event Listeners</h1>
+
+  <!-- 1: Click Event -->
+  <section>
+    <h2>1. Click Event</h2>
+    <button id="clickBtn">Click Me</button>
+  </section>
+
+  <!--  2: Hover Event -->
+  <section>
+    <h2>2. Hover Event</h2>
+    <div id="hoverBox">Hover over me!</div>
+  </section>
+
+  <!-- 3: Form Submit -->
+  <section>
+    <h2>3. Form Submit</h2>
+    <form id="todo-form">
+      <input id="taskInput" type="text" placeholder="New Task" required>
+      <button type="submit">Add Task</button>
+    </form>
+    <ul id="taskList"></ul>
+  </section>
+
+  <!-- 4: Keyboard Event -->
+  <section>
+    <h2>4. Keyboard Event</h2>
+    <input id="keyInput" type="text" placeholder="Type something...">
+    <p id="keyLog"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

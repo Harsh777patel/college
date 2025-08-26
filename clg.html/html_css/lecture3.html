@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            background-color: aqua;
+            border: 5px solid yellow;
+            padding: 3px;
+            display: inline-block;
+        }
+
+        .container>div {
+            background-color: brown;
+            border: 2px solid;
+            margin: 2px;
+            padding: 3px;
+
+        }
+
+        .harsh {
+            border: 2px solid;
+            margin: 5px;
+            padding: 10px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div style="display:inline ; background-color: rgb(205, 128, 40);">hello</div>
+        <div style="display:inline ; background-color: rgb(9, 44, 73); ">hello</div>
+        <div style="display:inline-block ; background-color: rgb(190, 38, 38); width: 100;">hello</div>
+        <div style="display:inline-block ; background-color: rgb(25, 123, 209); width: 200;">hello</div>
+        <div style="display:block ; background-color: rgb(72, 185, 27);">hello</div>
+        <div style="display:block ; background-color: rgb(178, 196, 14);">hello</div>
+    </div>
+    <div class="container">
+        <div>1 </div>
+        <div>2</div>
+        <div>3 </div>
+    </div>
+    <div class="harsh">
+                <div style="text-align: center; background-color: brown;">
+<h1 style="text-align: center text-font-bold;"> Login Page </h1>
+
+            <label for="Username">Username</label>
+            <input type="text" name="name" placeholder="Username" required>
+        </br><br>
+            <label for="Password">Password</label>
+            <input type="password" name="name" placeholder="password" required><br>
+        
+        <br>
+
+        
+        <button>Submit</button></div>
+    </div>
+</body>
+
+</html>
